@@ -1,0 +1,7 @@
+cd /var/www
+rm -fr html
+cp -r backup html
+chmod 777 -R /var/www/html
+mysql -u root -p'password' --execute 'drop database wp;' || true
+mysql -u root -p'password' --execute 'create database wp;'
+mysql -u root -p'password' wp < /var/www/html/wp.sql
