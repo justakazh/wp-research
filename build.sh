@@ -10,6 +10,7 @@ service mariadb start
 #configure apache2 
 rm /etc/apache2/sites-available/000-default.conf
 cp apache_conf/000-default.conf /etc/apache2/sites-available/000-default.conf
+cp apache_conf/apache2.conf /etc/apache2/apache2.conf
 a2enmod rewrite
 service apache2 restart
 
