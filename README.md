@@ -14,7 +14,7 @@ sudo apt install nginx
 **create and configure container**
 ```bash
 #host
-docker run -ti ubuntu --name wordpress -p lport:rport -v /var/www/html/:/var/www/html/wordpress ubuntu /bin/bash
+docker run -ti --name wordpress -p lport:rport -v /var/www/html/:/var/www/html/wordpress ubuntu /bin/bash
 
 #contianer
 apt update
