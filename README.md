@@ -1,4 +1,4 @@
-#  Wordpress Docker Semi Automatic Setup 
+#  WP-Research
 ## Introduciton
 this is my wordpress in docker container for automatic setup. this born because i was tired to manualy install and setup wordpress in docker container. maybe i should use wordpress image tapi menuturku itu tidak bagus
 
@@ -49,5 +49,7 @@ server {
 }
 
 #enable site
-ln -s /etc/nginx/
+ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/wordpress
+nginx -t
+service nginx restart
 ```
