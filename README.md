@@ -1,7 +1,7 @@
 #  WP-Research
 ## Introduction
 this is my wordpress in docker container for automatic setup. this born because i was tired to manualy install and setup wordpress in docker container. maybe i should use wordpress image tapi menuturku itu tidak bagus
-
+**WARNING** this is just for research purposes and local only. not recommended for production.
 ## installation 
 
 ### Host 
