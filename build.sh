@@ -1,7 +1,7 @@
 #installing depedences
 apt update
 apt install -y apache2 php mariadb-server
-apt install nano curl unzip wget php-curl libapache2-mod-php php-mysql php-common
+apt install -y nano curl unzip wget php-curl libapache2-mod-php php-mysql php-common
 
 #starting service
 service apache2 start
